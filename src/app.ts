@@ -1,6 +1,7 @@
 // import the expression application and type defnition 
 import express, { Express } from "express";
 
+
 // initialize the express application
 const app: Express = express();
 
@@ -10,4 +11,4 @@ app.get("/", (req, res) => {
 });
 
 // export app and server for testing
-export default app;d sds
+export default app;
